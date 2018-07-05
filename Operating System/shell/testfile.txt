@@ -1,0 +1,39 @@
+shell testbench
+
+// lists files in current directory
+ls 
+// lists files (including hidden ones) in current directory
+options: -a
+// human readable form
+-lh
+Last Modified Time
+-ltr
+
+
+// change directory (not forked)
+cd 
+
+// show manual pages
+man <command>
+
+// copy contents of file 1 and put i file 2
+cp <file 1> <file 2>
+
+// move file command from path1 to path2
+mv <path1> <path2>
+// rename file
+mv <path1> <path2> where directory has not changed
+
+// make directory
+mkdir <name>
+
+// remove directory (directory must be empty)
+rmdir
+
+// show date
+date
+
+// show last 10 lines of file
+tail <file>
+
+mkdir test_folder | cd test_folder | ls | cd .. | rmdir test_folder
